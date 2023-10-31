@@ -1,17 +1,26 @@
+ifeval::["{backend}" == "manpage"]
+
 zmq(7)
 ======
 
-
 NAME
 ----
-zmq - 0MQ lightweight messaging kernel
-
+zmq - 0MQ lightweight messaging kernel, version {zmq_version}
 
 SYNOPSIS
 --------
 *#include <zmq.h>*
 
 *cc* ['flags'] 'files' *-lzmq* ['libraries']
+
+endif::[]
+ifeval::["{backend}" != "manpage"]
+
+
+ZMQ API Reference
+-----------------
+
+endif::[]
 
 
 DESCRIPTION
