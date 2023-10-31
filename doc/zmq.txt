@@ -25,6 +25,8 @@ endif::[]
 
 DESCRIPTION
 -----------
+This documentation is for libzmq {zmq_version}.
+
 The 0MQ lightweight messaging kernel is a library which extends the standard
 socket interfaces with features traditionally provided by specialised
 _messaging middleware_ products. 0MQ sockets provide an abstraction of

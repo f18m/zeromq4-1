@@ -22,7 +22,7 @@ build:
   #  - libtool
   commands:
     - npm install -g asciidoctor
-    - asciidoctor --backend html --destination-dir $READTHEDOCS_OUTPUT/html --attribute zmq_version='4.2.5' doc/*.txt
+    - asciidoctor --backend html --destination-dir $READTHEDOCS_OUTPUT/html --attribute zmq_version='4.1.x' doc/*.txt
     # we use as landing page the "zmq.html":
     - cp $READTHEDOCS_OUTPUT/html/zmq.html $READTHEDOCS_OUTPUT/html/index.html
     # htmlzip docs are just like HTML:
